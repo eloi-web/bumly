@@ -1,5 +1,5 @@
   :root {
-  font-family: 'montserrat', serif;
+  font-family: "'montserrat', serif";
   line-height: 1.5;
   font-weight: 400;
 
@@ -17,7 +17,7 @@
 // <uniquifier>: Use a unique and descriptive class name
  */
 .montserrat-<uniquifier> {
-  font-family: "Montserrat", sans-serif;
+  font-family: "'montserrat', sans-serif";
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
@@ -26,13 +26,13 @@
 
 /* instrument-serif-latin */
 .instrument-serif-regular {
-  font-family: "Instrument Serif", serif;
+  font-family: "'Instrument Serif', serif";
   font-weight: 400;
   font-style: normal;
 }
 
 .instrument-serif-regular-italic {
-  font-family: "Instrument Serif", serif;
+  font-family: "'Instrument Serif', serif";
   font-weight: 400;
   font-style: italic;
 }
