@@ -129,7 +129,8 @@ function App() {
       } else {
         setAlbums(albumData.items);
       }
-    
+        }
+      
     catch (error) {
       console.error("Error fetching data:", error);
       setError("Something went wrong while searching. Please try again.");
@@ -137,7 +138,7 @@ function App() {
       setIsLoading(false);
     }
   }
-
+  
   return (
     <div 
       className="min-h-screen pb-12 transition-all duration-700"
