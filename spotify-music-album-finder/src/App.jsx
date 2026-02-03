@@ -481,7 +481,7 @@ function App() {
                           href={album.external_urls.spotify}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="bg-gradient-to-r from-green-500 to-green-400 text-black hover:text-white font-bold text-xs sm:text-sm px-3 sm:px-4 py-2 rounded-full hover:scale-105 transition-transform focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2 focus:ring-offset-black"
+                          className="bg-gradient-to-r from-green-500 to-green-400 text-black hover:text-green-100 font-bold text-xs sm:text-sm px-3 sm:px-4 py-2 rounded-full hover:scale-105 transition-transform focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2 focus:ring-offset-black"
                           aria-label={`Listen to ${album.name} on Spotify`}
                         >
                           Listen 🎧
