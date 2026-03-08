@@ -355,7 +355,7 @@ function App() {
                 <input
                   type="text"
                   placeholder="Search For an Artist or Album"
-                  className="w-full sm:flex-1 max-w-96 h-12 px-5 rounded-full text-black outline-none focus:ring-2 focus:ring-green-500 transition-shadow"
+                  className="w-full sm:flex-1 max-w-96 h-12 px-5 rounded-full text-white outline-none focus:ring-2 focus:ring-green-500 transition-shadow"
                   value={searchInput}
                   onChange={(e) => setSearchInput(e.target.value)}
                   onKeyDown={(e) => {
